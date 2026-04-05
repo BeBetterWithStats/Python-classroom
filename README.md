@@ -6,16 +6,10 @@ Espace dédié à l'apprentissage des programmes Harvard CS50's
 Utilitaire permettant de télécharger la vidéo Youtube dont l'url a été passée en paramètre de la ligne de commande. Si le paramètre est absent, une invitation de commande `input()` permettra à l'utilisateur de saisir l'URL de la vidéo.
 
 ### Pré-requis
-```$ pip install pytube```
-et ajouter potentiellement le fix https://github.com/pytube/pytube/issues/1199
-
+Installer ffmpeg via homebrew
 
 ### Comment lancer le programme
-```$ python3 youtube.py <OPT url_video_youtube>```
-
-### Liste des tâches à traiter
-- [ ] Rendre le répertoire de destination paramétrable
-- [ ] Ajouter un ficher de compte rendu du téléchargement (URL, titre, auteur, date du téléchargement)
+```$ python3 youtube.py```
 
 ## :chart_with_upwards_trend: Stock Market
 Utilitaire permettant de consolider dans un seul fichier l'ensemble des opérations sur instruments financiers passées chez différents brokers.
